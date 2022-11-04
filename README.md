@@ -1,3 +1,10 @@
 # DDT-GroupCA
-# Test..1.2..3
+
+Group Members:
+Evelyn 
+Leisly 
+Thiago 
+Eliabe
+Yuri
+
  
