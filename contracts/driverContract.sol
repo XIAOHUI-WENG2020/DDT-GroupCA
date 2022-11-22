@@ -20,8 +20,4 @@ struct userRecord
         return address(this).balance;
     }
 
-    function withdrawMoney() public {
-        address payable to = payable(msg.sender);
-        to.transfer(getBalance());
     }
-}
