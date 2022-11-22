@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.6.9+commit.3e3065ac"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/driverContract.sol": "taxiContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/driverContract.sol": {
+			"keccak256": "0x26d78eafe84f9d970807ce8d8a9409a0290228be00ae7b6d0644b139682ae28a",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://5b153e0d416d1deec6e9cb3bb4ee6bea014a7b0dca715066508c22f9cced398e",
+				"dweb:/ipfs/QmfMMynyM1wzeS3gCR7cVtijp2heUXH6XS18wFq35up23a"
+			]
+		}
+	},
+	"version": 1
+}
