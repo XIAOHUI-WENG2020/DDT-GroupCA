@@ -1,11 +1,12 @@
 // SPDX-License-Identifier: GPL-30
 
-pragma solidity ^0.6.9;
+// author: Yuri Ribeiro 2020347
 
-contract {
+pragma solidity ^0.8.7;
 
-    
-     uint public balanceReceived;
+contract PassangerContract {
+
+    uint public balanceReceived;
 
     function receiveMoney() public payable {
         balanceReceived += msg.value;
@@ -14,4 +15,8 @@ contract {
     function getBalance() public view returns(uint) {
         return address(this).balance;
     }
+
+    function payTo(address payable _to) public {
+        _to.transfer(getBalance());
+    }    
 }
