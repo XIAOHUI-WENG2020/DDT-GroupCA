@@ -1,0 +1,41 @@
+{
+	"compiler": {
+		"version": "0.6.9+commit.3e3065ac"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/fareCalc.sol": "fareCalc"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/fareCalc.sol": {
+			"keccak256": "0x90b99ef2c9d258b0e6fe8209e78249ae3eca977e37917e867d0236e4c9cefa20",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://33a955ea76a12fd3e79ad51bf73c894f54fa99c3bf578f4c3569d605bf58a82d",
+				"dweb:/ipfs/QmXvwZKHMJQUkJHQ2TK8ty8Ueb3S7TNZCfpz4uyHiXJXwu"
+			]
+		}
+	},
+	"version": 1
+}

@@ -32,10 +32,72 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					}
+				],
+				"name": "getUserDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "total",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "receiveMoney",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "fare",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "km",
+						"type": "int256"
+					},
+					{
+						"internalType": "bool",
+						"name": "extra",
+						"type": "bool"
+					},
+					{
+						"internalType": "int256",
+						"name": "total",
+						"type": "int256"
+					}
+				],
+				"name": "saveUserDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -63,11 +125,19 @@
 	},
 	"sources": {
 		"contracts/driverContract.sol": {
-			"keccak256": "0x26d78eafe84f9d970807ce8d8a9409a0290228be00ae7b6d0644b139682ae28a",
+			"keccak256": "0xbd6a0d08bba3e88cb7b15a852743765ce2841d32f35ce668c3029073e135c57e",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://5b153e0d416d1deec6e9cb3bb4ee6bea014a7b0dca715066508c22f9cced398e",
-				"dweb:/ipfs/QmfMMynyM1wzeS3gCR7cVtijp2heUXH6XS18wFq35up23a"
+				"bzz-raw://f458bbdbd6a4ea19754f35ea732ecdd4f301bca247d170c6034b8702c7f68428",
+				"dweb:/ipfs/QmdqGQNuyNoNmrfSZvbdArsvtPu1h99GTz6WrD5MM87DUV"
+			]
+		},
+		"contracts/fareCalc.sol": {
+			"keccak256": "0xe89bebd55d2bdfe8156df0f22e95e64f625fe1bb9fdfe3948333cabb299b5430",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://22ca5515c82bc6eca98d8906ed0aab6ee0e8527288f72738d31a792761ab0689",
+				"dweb:/ipfs/QmcFnKWsbwF1MS9caYzeFpj2yJsp6mTQJCMDWhoAMxEeLm"
 			]
 		}
 	},
