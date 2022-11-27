@@ -40,10 +40,52 @@ struct userRecord
  //        }
 
 
-         uint public balanceReceived;
+        // uint public balanceReceived;
 
- 
-    function receiveMoney() public payable {
+  uint public kilometer;
+         uint public payment;
+         uint public nightRate = 5;
+         uint public price_per_KLM = 20;
+         string  public timeShift = "night";
+
+         
+     function setKilometer(uint x) public  {
+       kilometer = x;
+    }
+
+  function setTimeShift(string memory  y) public  {
+           
+      // once you set the kilometers traveled by the drivers it will calculate the (number of kilometer * price_per_KLM)
+  
+          
+
+
+    //if it is night shift so it will be  (kilometer * nightRate) adding more 5$ per kilometer as you see bellow
+       if(keccak256(bytes(y)) == keccak256(bytes(timeShift))) {
+
+         payment = kilometer * price_per_KLM + kilometer * nightRate;
+
+        }
+           else{
+               // if isnot night shift, than the price will be just (kilometer * price_per_KLM)
+               payment = payment = kilometer * price_per_KLM;
+           }
+
+  }
+    
+
+    function getPayment() public view returns(uint) {
+        return payment;
+    }        
+     
+
+
+    function getBalance() public view returns(uint) {
+        return address(this).balance;
+    }
+
+    
+     /*  function receiveMoney() public payable {
         balanceReceived += msg.value;
     }
 
@@ -52,6 +94,8 @@ struct userRecord
     }
         
     }
-
+*/
     
+        
+    }
 
