@@ -7,19 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "balanceReceived",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
 					{
@@ -39,7 +26,7 @@
 						"type": "string"
 					}
 				],
-				"name": "getUserDetails",
+				"name": "getPassangerDetails",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -57,9 +44,67 @@
 			},
 			{
 				"inputs": [],
-				"name": "receiveMoney",
-				"outputs": [],
-				"stateMutability": "payable",
+				"name": "getPayment",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "kilometer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nightRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price_per_KLM",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -95,9 +140,48 @@
 						"type": "int256"
 					}
 				],
-				"name": "saveUserDetails",
+				"name": "savePassangerDetails",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setKilometer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "y",
+						"type": "string"
+					}
+				],
+				"name": "setTimeShift",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeShift",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -125,11 +209,11 @@
 	},
 	"sources": {
 		"contracts/driverContract.sol": {
-			"keccak256": "0xbd6a0d08bba3e88cb7b15a852743765ce2841d32f35ce668c3029073e135c57e",
+			"keccak256": "0x1eca25ed525d191c383d97f4bbf6fadeb3d61a159d71ff7b7545eb7571fab72a",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://f458bbdbd6a4ea19754f35ea732ecdd4f301bca247d170c6034b8702c7f68428",
-				"dweb:/ipfs/QmdqGQNuyNoNmrfSZvbdArsvtPu1h99GTz6WrD5MM87DUV"
+				"bzz-raw://71724601d19f2fc0e047e4e927cdc6d119835595b4e55beaa12a39e8a962c46c",
+				"dweb:/ipfs/QmTx8MfkAjRwC37TnEwQPXaUVneFVKnF9LdDE6VGp5M4vK"
 			]
 		},
 		"contracts/fareCalc.sol": {

@@ -21,11 +21,13 @@ struct userRecord
 
    
     
-    function saveUserDetails(string memory id, string memory name, int fare, int km, bool extra, int total) public  {
+    function savePassangerDetails(string memory id, string memory name, int fare, int km, bool extra, int total) public  {
         userRecordMapping[id] = userRecord(id, name, fare, km, extra, total);
     }
 
-    function getUserDetails(string memory id) public  view returns(string memory name, int total){
+   // get the passanger name and the total paid.
+
+    function getPassangerDetails(string memory id) public  view returns(string memory name, int total){
         return (userRecordMapping[id].name, userRecordMapping[id].total);
     }
 
