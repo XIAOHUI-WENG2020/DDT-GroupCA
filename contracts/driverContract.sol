@@ -31,10 +31,11 @@ struct userRecord
 
     
   uint private kilometer;
-         uint public total;
+         
          uint private nightRate = 5;
          uint private price_per_KLM = 2;
          string  private timeShift = "night";
+         uint public total;
         
 
          
@@ -73,12 +74,9 @@ struct userRecord
     // }
 
    // display the balance available
-    function getBalance() public view returns(uint) {
-        return address(this).balance;
-    }
-
-
-    
+//     function getBalance() public view returns(uint) {
+//         return address(this).balance;
+//     }
       
  }
 

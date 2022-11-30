@@ -19,19 +19,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -147,11 +134,11 @@
 	},
 	"sources": {
 		"contracts/driverContract.sol": {
-			"keccak256": "0xe3510ed9c21767d8c17b1852b87fe12b6e4ef39cf2edb2c2bb8be9d92aa372aa",
+			"keccak256": "0x278ef69de84cd9951ac945a3b73ba83de93f8cb579d79e393cab26a15bb5ada5",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://60049c1ea49aa84d5214a4ab1205d7a512bd0cf8335978e025ee946b5751cb51",
-				"dweb:/ipfs/QmVoD25nXGXCgzsnohuxXyyPzvQ7b7StenHbJ55g7zgCW1"
+				"bzz-raw://ed64fab9b5fad5e90f699fe4a94b4a3b60032a6236675490da451c7f3604e33e",
+				"dweb:/ipfs/QmcjPX6u9hwLidjw2n4RDTkeeMAsFjrKi4M4upPyVe5h33"
 			]
 		}
 	},
