@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: GPL-30
 
 pragma solidity ^0.6.9;
-import "./fareCalc.sol";
 contract taxiContract {
 
  
