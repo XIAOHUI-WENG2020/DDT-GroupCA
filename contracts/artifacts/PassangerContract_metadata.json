@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.6.9+commit.3e3065ac"
 	},
 	"language": "Solidity",
 	"output": {
@@ -39,7 +39,7 @@
 						"type": "address"
 					}
 				],
-				"name": "payTo",
+				"name": "payToTaxi",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -53,21 +53,17 @@
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/passangerContract.sol": "PassangerContract"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -80,11 +76,11 @@
 	},
 	"sources": {
 		"contracts/passangerContract.sol": {
-			"keccak256": "0x861365b9e79542d7fa686bd2acf7f8d474a5a22ede9dface424af882775a7b58",
+			"keccak256": "0x26906c7b17e24dde74cdac527b9db53b1186a1d4f486efd2a32c0175fcd94b0b",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://be95e355e34c9793dbb18660a94a270fc4409ec0caa593cac7b16b5342e9f79c",
-				"dweb:/ipfs/QmeGsBTqYpVyzg4FKjPjayvqkTyeHbvJLU6mBU1FxzJuxx"
+				"bzz-raw://27bd3c8df9f4c8fe04cea80674b7c81b109fdd27ffdcc498d3169d38776eba7c",
+				"dweb:/ipfs/QmVNUxowNig7oPheQ1poYVJVubzvxrHYd934dKUsh581df"
 			]
 		}
 	},

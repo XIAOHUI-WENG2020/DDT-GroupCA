@@ -58,39 +58,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					}
-				],
-				"name": "payToTaxi",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "payment",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "receiveMoney",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "string",
 						"name": "id",
 						"type": "string"
@@ -144,12 +111,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "timeShift",
+				"name": "total",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -180,11 +147,11 @@
 	},
 	"sources": {
 		"contracts/driverContract.sol": {
-			"keccak256": "0xf25235ed045594eeb2f3ae626a5a3f2a2f5439c6289d12886f59e802118e647f",
+			"keccak256": "0xe3510ed9c21767d8c17b1852b87fe12b6e4ef39cf2edb2c2bb8be9d92aa372aa",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://88b5560a84dc9e3135e87876e3c88d7fe8e292adad4ce5603393ceb625dfa57a",
-				"dweb:/ipfs/QmNZgs7xBGugKY2pwtQaBfjrky2yHT4eATTTdzfLvWsEfK"
+				"bzz-raw://60049c1ea49aa84d5214a4ab1205d7a512bd0cf8335978e025ee946b5751cb51",
+				"dweb:/ipfs/QmVoD25nXGXCgzsnohuxXyyPzvQ7b7StenHbJ55g7zgCW1"
 			]
 		}
 	},

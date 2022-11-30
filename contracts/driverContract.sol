@@ -31,10 +31,11 @@ struct userRecord
 
     
   uint private kilometer;
-         uint public payment;
+         uint public total;
          uint private nightRate = 5;
          uint private price_per_KLM = 2;
-         string  public timeShift = "night";
+         string  private timeShift = "night";
+        
 
          
      function setKilometer(uint x) public  {
@@ -51,13 +52,13 @@ struct userRecord
     //if it is night shift so it will be  (kilometer * nightRate) adding more 5$ per kilometer as you see bellow
        if(keccak256(bytes(y)) == keccak256(bytes(timeShift))) {
 
-         payment = kilometer * price_per_KLM  + nightRate;
+         total = kilometer * price_per_KLM  + nightRate;
 
         }
         
            else{
                // if isnot night shift, than the price will be just (kilometer * price_per_KLM)
-               payment = payment = kilometer * price_per_KLM;
+               total = total = kilometer * price_per_KLM;
            }
 
   }
@@ -67,25 +68,17 @@ struct userRecord
      // Receive cryptocoins from its account
      uint public balanceReceived;
 
-    function receiveMoney() public payable {
-        balanceReceived += msg.value;
-    }
+    // function receiveMoney() public payable {
+    //     balanceReceived += msg.value;
+    // }
 
    // display the balance available
     function getBalance() public view returns(uint) {
         return address(this).balance;
     }
 
-// Function to pay to the taxidriver using his/her address
-
-    function payToTaxi(address payable _to) public {
-       _to.transfer(getBalance());
-    }
 
     
       
-
-    
-        
-    }
+ }
 

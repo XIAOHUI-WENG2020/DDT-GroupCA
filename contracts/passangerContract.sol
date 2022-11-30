@@ -2,7 +2,7 @@
 
 // author: Yuri Ribeiro 2020347
 
-pragma solidity ^0.8.7;
+pragma solidity ^0.6.9;
 
 contract PassangerContract {
 
@@ -16,7 +16,9 @@ contract PassangerContract {
         return address(this).balance;
     }
 
-    function payTo(address payable _to) public {
+
+// Function to pay to the taxidriver using his/her address
+    function payToTaxi(address payable _to) public {
         _to.transfer(getBalance());
     }    
 }
