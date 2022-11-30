@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
 					{
@@ -56,29 +69,16 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "kilometer",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "nightRate",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "payToTaxi",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -96,15 +96,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "price_per_KLM",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "receiveMoney",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -209,11 +203,11 @@
 	},
 	"sources": {
 		"contracts/driverContract.sol": {
-			"keccak256": "0x1eca25ed525d191c383d97f4bbf6fadeb3d61a159d71ff7b7545eb7571fab72a",
+			"keccak256": "0x73fb9e12aabdc2e891dc7142700f0d08077fae83cb96889901f406c4a1860fb1",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://71724601d19f2fc0e047e4e927cdc6d119835595b4e55beaa12a39e8a962c46c",
-				"dweb:/ipfs/QmTx8MfkAjRwC37TnEwQPXaUVneFVKnF9LdDE6VGp5M4vK"
+				"bzz-raw://f1428fcc40e43638f787137b4efad4a1041a6fae3e9ce1f401380ac43e72852c",
+				"dweb:/ipfs/QmPYVmmriqUprMxM1pcjq1NHsPczUnExbctndBbdGATe5D"
 			]
 		},
 		"contracts/fareCalc.sol": {

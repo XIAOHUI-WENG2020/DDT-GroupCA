@@ -20,7 +20,7 @@ struct userRecord
   }
 
    
-    
+    // save the passanger ride details
     function savePassangerDetails(string memory id, string memory name, int fare, int km, bool extra, int total) public  {
         userRecordMapping[id] = userRecord(id, name, fare, km, extra, total);
     }
@@ -34,20 +34,11 @@ struct userRecord
 
     int constant base_amount = 100;
     
-        // function responsible to perfom the calculation of the total amount
-  //  function TaxiCalculator(int km) public view  { 
-  //       int variable_amount = 10;
-  //       int base_amount = 20
-  //          return ((base_amount + variable_amount + km));   
- //        }
-
-
-        // uint public balanceReceived;
-
-  uint public kilometer;
+   
+  uint private kilometer;
          uint public payment;
-         uint public nightRate = 5;
-         uint public price_per_KLM = 20;
+         uint private nightRate = 5;
+         uint private price_per_KLM = 20;
          string  public timeShift = "night";
 
          
@@ -80,23 +71,27 @@ struct userRecord
         return payment;
     }        
      
+     // Receive cryptocoins from its account
+     uint public balanceReceived;
 
-
-    function getBalance() public view returns(uint) {
-        return address(this).balance;
-    }
-
-    
-     /*  function receiveMoney() public payable {
+    function receiveMoney() public payable {
         balanceReceived += msg.value;
     }
 
+   // display the balance available
     function getBalance() public view returns(uint) {
         return address(this).balance;
     }
-        
+
+// Function to pay to the taxidriver using his/her address
+
+    function payToTaxi(address payable _to) public {
+       _to.transfer(getBalance());
     }
-*/
+
+    
+      
+
     
         
     }
