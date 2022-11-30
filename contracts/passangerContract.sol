@@ -6,7 +6,7 @@ pragma solidity ^0.6.9;
 
 contract PassangerContract {
 
-    uint public balanceReceived;
+     uint private balanceReceived;
 
     function receiveMoney() public payable {
         balanceReceived += msg.value;

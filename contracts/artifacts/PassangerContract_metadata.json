@@ -7,19 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "balanceReceived",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
 					{
@@ -76,11 +63,11 @@
 	},
 	"sources": {
 		"contracts/passangerContract.sol": {
-			"keccak256": "0x26906c7b17e24dde74cdac527b9db53b1186a1d4f486efd2a32c0175fcd94b0b",
+			"keccak256": "0x40e01c6359547a6a6a8bf53c0267ce8bcc6d4ebbf9f3136dc9f9d4f7eb29b3b3",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://27bd3c8df9f4c8fe04cea80674b7c81b109fdd27ffdcc498d3169d38776eba7c",
-				"dweb:/ipfs/QmVNUxowNig7oPheQ1poYVJVubzvxrHYd934dKUsh581df"
+				"bzz-raw://8abd1de80717bf1e72ce24539cd476350449f728908d9ce55f144167772e9142",
+				"dweb:/ipfs/QmR3FhjMD1iWuah48msmDg3R82ccikXQEnZhtctJ2deYPL"
 			]
 		}
 	},
