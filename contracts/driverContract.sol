@@ -66,10 +66,7 @@ struct userRecord
   }
     
 
-    function getPayment() public view returns(uint) {
-        return payment;
-    }        
-     
+  
      // Receive cryptocoins from its account
      uint public balanceReceived;
 

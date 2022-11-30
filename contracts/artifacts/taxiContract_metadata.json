@@ -56,19 +56,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getPayment",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address payable",
@@ -203,19 +190,11 @@
 	},
 	"sources": {
 		"contracts/driverContract.sol": {
-			"keccak256": "0x73fb9e12aabdc2e891dc7142700f0d08077fae83cb96889901f406c4a1860fb1",
+			"keccak256": "0x63ca8d3971ab169fe8d6786aa0b8fba3719445030d99ba17c5627c64486c8ec2",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://f1428fcc40e43638f787137b4efad4a1041a6fae3e9ce1f401380ac43e72852c",
-				"dweb:/ipfs/QmPYVmmriqUprMxM1pcjq1NHsPczUnExbctndBbdGATe5D"
-			]
-		},
-		"contracts/fareCalc.sol": {
-			"keccak256": "0xe89bebd55d2bdfe8156df0f22e95e64f625fe1bb9fdfe3948333cabb299b5430",
-			"license": "GPL-30",
-			"urls": [
-				"bzz-raw://22ca5515c82bc6eca98d8906ed0aab6ee0e8527288f72738d31a792761ab0689",
-				"dweb:/ipfs/QmcFnKWsbwF1MS9caYzeFpj2yJsp6mTQJCMDWhoAMxEeLm"
+				"bzz-raw://1f02b817c1afaa9aacd4891c0cd5335a00279868cb88ba566b18ff5fc5d5fd48",
+				"dweb:/ipfs/QmeHMD5vxcax1L9Hbz6QFeDa5EpFZHKgBCqXCCLwgUUk23"
 			]
 		}
 	},
