@@ -47,9 +47,9 @@
 						"type": "string"
 					},
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "total",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -101,24 +101,14 @@
 						"type": "string"
 					},
 					{
-						"internalType": "int256",
-						"name": "fare",
-						"type": "int256"
-					},
-					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "km",
-						"type": "int256"
+						"type": "uint256"
 					},
 					{
-						"internalType": "bool",
-						"name": "extra",
-						"type": "bool"
-					},
-					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "total",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"name": "savePassangerDetails",
@@ -190,11 +180,11 @@
 	},
 	"sources": {
 		"contracts/driverContract.sol": {
-			"keccak256": "0x63ca8d3971ab169fe8d6786aa0b8fba3719445030d99ba17c5627c64486c8ec2",
+			"keccak256": "0xa4d6b359c7065e4a9d18b2be061a79112722b769cc90f75ac6251236a07f29b4",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://1f02b817c1afaa9aacd4891c0cd5335a00279868cb88ba566b18ff5fc5d5fd48",
-				"dweb:/ipfs/QmeHMD5vxcax1L9Hbz6QFeDa5EpFZHKgBCqXCCLwgUUk23"
+				"bzz-raw://7cea1bbe0e9c022f22940a02637b9f03be53c6d75a1a90d1c99fb8ba1a3bc5a5",
+				"dweb:/ipfs/QmQYW2XmvmXTb4aMgKtPFBczzXa3VEb7g6Tk691HaRn27o"
 			]
 		}
 	},

@@ -10,23 +10,21 @@ contract taxiContract {
      //organize user records using struct
 struct userRecord
     {
-        string id;
-        string name;
-        int km;
-        int fare;
-        bool extra;
-        int total;
+        string id; // passanger id
+        string name; // passanger name
+        uint km; // KM journey
+        uint total; // total cost
   }
 
    
     // save the passanger ride details
-    function savePassangerDetails(string memory id, string memory name, int fare, int km, bool extra, int total) public  {
-        userRecordMapping[id] = userRecord(id, name, fare, km, extra, total);
+    function savePassangerDetails(string memory id, string memory name, uint km, uint total) public  {
+        userRecordMapping[id] = userRecord(id, name, km, total);
     }
 
    // get the passanger name and the total paid.
 
-    function getPassangerDetails(string memory id) public  view returns(string memory name, int total){
+    function getPassangerDetails(string memory id) public  view returns(string memory name, uint total){
         return (userRecordMapping[id].name, userRecordMapping[id].total);
     }
 
