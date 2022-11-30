@@ -53,7 +53,7 @@ struct userRecord
     //if it is night shift so it will be  (kilometer * nightRate) adding more 5$ per kilometer as you see bellow
        if(keccak256(bytes(y)) == keccak256(bytes(timeShift))) {
 
-         payment = kilometer * price_per_KLM + kilometer * nightRate;
+         payment = kilometer * price_per_KLM  + nightRate;
 
         }
         
