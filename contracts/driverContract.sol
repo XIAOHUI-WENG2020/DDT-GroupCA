@@ -29,9 +29,7 @@ struct userRecord
     }
 
 
-    int constant base_amount = 100;
     
-   
   uint private kilometer;
          uint public payment;
          uint private nightRate = 5;
