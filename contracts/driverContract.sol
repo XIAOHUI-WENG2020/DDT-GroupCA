@@ -35,7 +35,7 @@ struct userRecord
   uint private kilometer;
          uint public payment;
          uint private nightRate = 5;
-         uint private price_per_KLM = 20;
+         uint private price_per_KLM = 2;
          string  public timeShift = "night";
 
          
@@ -56,6 +56,7 @@ struct userRecord
          payment = kilometer * price_per_KLM + kilometer * nightRate;
 
         }
+        
            else{
                // if isnot night shift, than the price will be just (kilometer * price_per_KLM)
                payment = payment = kilometer * price_per_KLM;

@@ -180,11 +180,11 @@
 	},
 	"sources": {
 		"contracts/driverContract.sol": {
-			"keccak256": "0xa4d6b359c7065e4a9d18b2be061a79112722b769cc90f75ac6251236a07f29b4",
+			"keccak256": "0xa6271200a6202ddd0513989dc3cc1b82d470def8c88e9e2dc5ae4167b4f0549b",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://7cea1bbe0e9c022f22940a02637b9f03be53c6d75a1a90d1c99fb8ba1a3bc5a5",
-				"dweb:/ipfs/QmQYW2XmvmXTb4aMgKtPFBczzXa3VEb7g6Tk691HaRn27o"
+				"bzz-raw://54b151130e2ecece4de666c4cae4b09f6422acda2960a96d99a296fc90a71b52",
+				"dweb:/ipfs/QmfAnLijT8dN9AVUj1Tmi2TiDw2W4jYMaASDVLewPk4Y8n"
 			]
 		}
 	},
