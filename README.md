@@ -11,4 +11,4 @@ Group Members:
 4. Eliabe Bali 2022474
 5. Yuri Mendoca 2020347
 
-[The exposition and explanation of this project are in this video.](https://github.com/XIAOHUI-WENG2020/DDT-GroupCA.git)
+[The exposition and explanation of this project are in this video.](https://drive.google.com/file/d/1vN_WH6wK6neZ3KcuBIRiUUMoYGul1jt6/view?usp=sharing)
